@@ -43,5 +43,3 @@ The 3 priorities that we provide you are:
 14. Use React context API and hooks to showcase your understanding of these React features
 15. Pay attention to performance of your page rendering
 16. "nunffsaid.com Coding Challenge" is part of the design. Make sure that you dont miss that header
-
-**_Applicants are provided this challenge with no expectation on deadline. Please take the time you need to complete the challenge to the best of your ability._**
