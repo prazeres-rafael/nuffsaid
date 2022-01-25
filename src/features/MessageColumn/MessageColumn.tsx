@@ -16,11 +16,11 @@ export default function MessageColumn({ messages }: Props): React.ReactElement {
         <BoxPriority priority={0} messages={messages} />
       </Grid>
       <Grid item xs={4}>
-        <Subtitle>Error Type 2</Subtitle>
+        <Subtitle>Warning Type 2</Subtitle>
         <BoxPriority priority={1} messages={messages} />
       </Grid>
       <Grid item xs={4}>
-        <Subtitle>Error Type 3</Subtitle>
+        <Subtitle>Info Type 3</Subtitle>
         <BoxPriority priority={2} messages={messages} />
       </Grid>
     </>

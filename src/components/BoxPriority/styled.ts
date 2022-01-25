@@ -8,7 +8,7 @@ type Props = {
 export const BoxPriority = styled.div<Props>(({ $priority }) => ({
   padding: 20,
   display: "flex",
-  justifyContent: "space-between",
+  flexDirection: "column",
   backgroundColor:
     $priority === 0
       ? palette.messages.error
@@ -21,4 +21,10 @@ export const BoxPriority = styled.div<Props>(({ $priority }) => ({
 export const ButtonClear = styled.a({
   cursor: "pointer",
   left: 50,
+});
+
+export const ButtonBox = styled.div({
+  display: "flex",
+  justifyContent: "right",
+  marginTop: "10px",
 });

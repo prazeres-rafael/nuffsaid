@@ -6,7 +6,7 @@ exports[`MessageColumn should match the snapshot 1`] = `
     class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
   >
     <p
-      class="sc-hKwDye fKwrRR"
+      class="sc-eCImPb bqPGal"
     >
       Error Type 1
     </p>
@@ -15,66 +15,78 @@ exports[`MessageColumn should match the snapshot 1`] = `
       1
     </p>
     <div
-      class="sc-bdvvtL gYHhVl"
+      class="sc-bdvvtL cEtDrJ"
       data-testid="box-priority"
     >
       Et aut quo laboriosam at ut.
-      <a
-        class="sc-gsDKAQ hPlvSa"
-        data-testid="clear-button"
+      <div
+        class="sc-dkPtRN hTkFqo"
       >
-        Clear
-      </a>
+        <a
+          class="sc-gsDKAQ hPlvSa"
+          data-testid="clear-button"
+        >
+          Clear
+        </a>
+      </div>
     </div>
   </div>
   <div
     class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
   >
     <p
-      class="sc-hKwDye fKwrRR"
+      class="sc-eCImPb bqPGal"
     >
-      Error Type 2
+      Warning Type 2
     </p>
     <p>
       Count: 
       1
     </p>
     <div
-      class="sc-bdvvtL cZbyUk"
+      class="sc-bdvvtL ennugk"
       data-testid="box-priority"
     >
       Dolor quo est expedita nostrum corrupti.
-      <a
-        class="sc-gsDKAQ hPlvSa"
-        data-testid="clear-button"
+      <div
+        class="sc-dkPtRN hTkFqo"
       >
-        Clear
-      </a>
+        <a
+          class="sc-gsDKAQ hPlvSa"
+          data-testid="clear-button"
+        >
+          Clear
+        </a>
+      </div>
     </div>
   </div>
   <div
     class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
   >
     <p
-      class="sc-hKwDye fKwrRR"
+      class="sc-eCImPb bqPGal"
     >
-      Error Type 3
+      Info Type 3
     </p>
     <p>
       Count: 
       1
     </p>
     <div
-      class="sc-bdvvtL gYgzXE"
+      class="sc-bdvvtL jfgNCI"
       data-testid="box-priority"
     >
       Recusandae iure et.
-      <a
-        class="sc-gsDKAQ hPlvSa"
-        data-testid="clear-button"
+      <div
+        class="sc-dkPtRN hTkFqo"
       >
-        Clear
-      </a>
+        <a
+          class="sc-gsDKAQ hPlvSa"
+          data-testid="clear-button"
+        >
+          Clear
+        </a>
+      </div>
     </div>
   </div>
 </div>

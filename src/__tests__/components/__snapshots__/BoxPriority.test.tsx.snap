@@ -7,16 +7,20 @@ exports[`BoxPriority should match the snapshot 1`] = `
     1
   </p>
   <div
-    class="sc-bdvvtL gYHhVl"
+    class="sc-bdvvtL cEtDrJ"
     data-testid="box-priority"
   >
     Et aut quo laboriosam at ut.
-    <a
-      class="sc-gsDKAQ hPlvSa"
-      data-testid="clear-button"
+    <div
+      class="sc-dkPtRN hTkFqo"
     >
-      Clear
-    </a>
+      <a
+        class="sc-gsDKAQ hPlvSa"
+        data-testid="clear-button"
+      >
+        Clear
+      </a>
+    </div>
   </div>
 </div>
 `;

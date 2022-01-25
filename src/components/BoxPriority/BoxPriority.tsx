@@ -1,5 +1,5 @@
-import React, { Fragment, useContext } from "react";
-import { ButtonClear, BoxPriority } from "./styled";
+import React, { useContext } from "react";
+import { ButtonClear, BoxPriority, ButtonBox } from "./styled";
 import { Message } from "../../Api";
 import { MessageContext } from "../../context/MessageContext";
 
@@ -28,21 +28,23 @@ export default function BoxByPriority({
   };
 
   return (
-    <Fragment>
+    <>
       <p>Count: {priorityFilter(priority).length}</p>
       {priorityFilter(priority).map((msg) => (
         <>
           <BoxPriority $priority={msg.priority} data-testid="box-priority">
             {msg.message}
-            <ButtonClear
-              onClick={() => handleClearItem(msg.message)}
-              data-testid="clear-button"
-            >
-              Clear
-            </ButtonClear>
+            <ButtonBox>
+              <ButtonClear
+                onClick={() => handleClearItem(msg.message)}
+                data-testid="clear-button"
+              >
+                Clear
+              </ButtonClear>
+            </ButtonBox>
           </BoxPriority>
         </>
       ))}
-    </Fragment>
+    </>
   );
 }
