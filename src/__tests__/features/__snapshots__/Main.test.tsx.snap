@@ -3,13 +3,13 @@
 exports[`Main should match the snapshot 1`] = `
 <div>
   <div
-    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-zow5z4-MuiGrid-root"
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 sc-bdvvtL iKDgMS css-zow5z4-MuiGrid-root"
   >
     <div
       class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
     >
       <h1
-        class="sc-bdvvtL bxVELL"
+        class="sc-gsDKAQ eOEXXy"
       >
         nuffsaid.com Coding Challenge
       </h1>
@@ -43,7 +43,7 @@ exports[`Main should match the snapshot 1`] = `
       class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
     >
       <p
-        class="sc-eCImPb bqPGal"
+        class="sc-jRQBWg kqdeIy"
       >
         Error Type 1
       </p>
@@ -56,7 +56,7 @@ exports[`Main should match the snapshot 1`] = `
       class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
     >
       <p
-        class="sc-eCImPb bqPGal"
+        class="sc-jRQBWg kqdeIy"
       >
         Error Type 2
       </p>
@@ -69,7 +69,7 @@ exports[`Main should match the snapshot 1`] = `
       class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
     >
       <p
-        class="sc-eCImPb bqPGal"
+        class="sc-jRQBWg kqdeIy"
       >
         Error Type 3
       </p>

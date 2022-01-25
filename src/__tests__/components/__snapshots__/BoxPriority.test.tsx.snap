@@ -2,10 +2,21 @@
 
 exports[`BoxPriority should match the snapshot 1`] = `
 <div>
+  <p>
+    Count: 
+    1
+  </p>
   <div
-    class="sc-bdvvtL cVJmSZ"
+    class="sc-bdvvtL gYHhVl"
+    data-testid="box-priority"
   >
-    Snapshot test
+    Et aut quo laboriosam at ut.
+    <a
+      class="sc-gsDKAQ hPlvSa"
+      data-testid="clear-button"
+    >
+      Clear
+    </a>
   </div>
 </div>
 `;

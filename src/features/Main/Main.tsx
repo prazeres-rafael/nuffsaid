@@ -1,7 +1,7 @@
 import { Grid } from "@mui/material";
 import React, { useContext, useEffect, useState } from "react";
 import generateMessage, { Message } from "../../Api";
-import { Title } from "./styled";
+import { Title, Container } from "./styled";
 import { ButtonContainer } from "../../components";
 import { MessageColumn } from "../index";
 import { MessageContext } from "../../context/MessageContext";
@@ -28,7 +28,7 @@ export default function Main(): React.ReactElement {
   };
 
   return (
-    <Grid container spacing={3}>
+    <Container container spacing={3}>
       <Grid item xs={12}>
         <Title>nuffsaid.com Coding Challenge</Title>
         <hr />
@@ -41,6 +41,6 @@ export default function Main(): React.ReactElement {
         />
       </Grid>
       <MessageColumn messages={messages} />
-    </Grid>
+    </Container>
   );
 }

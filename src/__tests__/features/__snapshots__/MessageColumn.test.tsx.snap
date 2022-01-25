@@ -6,7 +6,7 @@ exports[`MessageColumn should match the snapshot 1`] = `
     class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
   >
     <p
-      class="sc-dkPtRN jLMnWC"
+      class="sc-hKwDye fKwrRR"
     >
       Error Type 1
     </p>
@@ -15,11 +15,12 @@ exports[`MessageColumn should match the snapshot 1`] = `
       1
     </p>
     <div
-      class="sc-bdvvtL cVJmSZ"
+      class="sc-bdvvtL gYHhVl"
+      data-testid="box-priority"
     >
       Et aut quo laboriosam at ut.
       <a
-        class="sc-gsDKAQ ertJLs"
+        class="sc-gsDKAQ hPlvSa"
         data-testid="clear-button"
       >
         Clear
@@ -30,7 +31,7 @@ exports[`MessageColumn should match the snapshot 1`] = `
     class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
   >
     <p
-      class="sc-dkPtRN jLMnWC"
+      class="sc-hKwDye fKwrRR"
     >
       Error Type 2
     </p>
@@ -39,11 +40,13 @@ exports[`MessageColumn should match the snapshot 1`] = `
       1
     </p>
     <div
-      class="sc-bdvvtL dRCsmw"
+      class="sc-bdvvtL cZbyUk"
+      data-testid="box-priority"
     >
       Dolor quo est expedita nostrum corrupti.
       <a
-        class="sc-gsDKAQ ertJLs"
+        class="sc-gsDKAQ hPlvSa"
+        data-testid="clear-button"
       >
         Clear
       </a>
@@ -53,7 +56,7 @@ exports[`MessageColumn should match the snapshot 1`] = `
     class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
   >
     <p
-      class="sc-dkPtRN jLMnWC"
+      class="sc-hKwDye fKwrRR"
     >
       Error Type 3
     </p>
@@ -62,11 +65,13 @@ exports[`MessageColumn should match the snapshot 1`] = `
       1
     </p>
     <div
-      class="sc-bdvvtL VebcU"
+      class="sc-bdvvtL gYgzXE"
+      data-testid="box-priority"
     >
       Recusandae iure et.
       <a
-        class="sc-gsDKAQ ertJLs"
+        class="sc-gsDKAQ hPlvSa"
+        data-testid="clear-button"
       >
         Clear
       </a>
