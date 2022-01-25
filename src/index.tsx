@@ -2,10 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { MessageContextProvider } from "./context/MessageContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MessageContextProvider>
+      <App />
+    </MessageContextProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

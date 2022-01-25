@@ -3,6 +3,7 @@ import generateMessage, { Message } from "../Api";
 
 export function useMessage() {
   const [getMessages, setGetMessages] = useState<boolean>(true);
+
   const [errorMessages, setErrorMessages] = useState<Message[]>([]);
   const [warningMessages, setWarningMessages] = useState<Message[]>([]);
   const [infoMessages, setInfoMessages] = useState<Message[]>([]);
