@@ -2,7 +2,8 @@ import { Grid } from "@mui/material";
 import React, { useContext, useEffect, useState } from "react";
 import generateMessage, { Message } from "../../Api";
 import { Title } from "./styled";
-import { ButtonContainer, MessageColumn } from "../index";
+import { ButtonContainer } from "../../components";
+import { MessageColumn } from "../index";
 import { MessageContext } from "../../context/MessageContext";
 
 export default function Main(): React.ReactElement {

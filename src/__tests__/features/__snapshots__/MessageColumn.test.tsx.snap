@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageColumn should match the snapshot 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+  >
+    <p
+      class="sc-dkPtRN jLMnWC"
+    >
+      Error Type 1
+    </p>
+    <p>
+      Count: 
+      1
+    </p>
+    <div
+      class="sc-bdvvtL cVJmSZ"
+    >
+      Et aut quo laboriosam at ut.
+      <a
+        class="sc-gsDKAQ ertJLs"
+        data-testid="clear-button"
+      >
+        Clear
+      </a>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+  >
+    <p
+      class="sc-dkPtRN jLMnWC"
+    >
+      Error Type 2
+    </p>
+    <p>
+      Count: 
+      1
+    </p>
+    <div
+      class="sc-bdvvtL dRCsmw"
+    >
+      Dolor quo est expedita nostrum corrupti.
+      <a
+        class="sc-gsDKAQ ertJLs"
+      >
+        Clear
+      </a>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+  >
+    <p
+      class="sc-dkPtRN jLMnWC"
+    >
+      Error Type 3
+    </p>
+    <p>
+      Count: 
+      1
+    </p>
+    <div
+      class="sc-bdvvtL VebcU"
+    >
+      Recusandae iure et.
+      <a
+        class="sc-gsDKAQ ertJLs"
+      >
+        Clear
+      </a>
+    </div>
+  </div>
+</div>
+`;

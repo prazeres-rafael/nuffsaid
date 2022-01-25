@@ -35,7 +35,10 @@ export default function MessageColumn({ messages }: Props): React.ReactElement {
           <>
             <BoxPriority key={generateKey(msg.message)} priority={msg.priority}>
               {msg.message}
-              <ButtonClear onClick={() => handleClearItem(msg.message)}>
+              <ButtonClear
+                onClick={() => handleClearItem(msg.message)}
+                data-testid="clear-button"
+              >
                 Clear
               </ButtonClear>
             </BoxPriority>

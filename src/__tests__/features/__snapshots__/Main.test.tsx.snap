@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main should match the snapshot 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-zow5z4-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+    >
+      <h1
+        class="sc-bdvvtL bxVELL"
+      >
+        nuffsaid.com Coding Challenge
+      </h1>
+      <hr />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-bj7xu4-MuiGrid-root"
+    >
+      <button
+        class="MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-ke5b6m-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        STOP
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        class="MuiButton-root MuiButton-text MuiButton-textSuccess MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1lg55su-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        CLEAR
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+    >
+      <p
+        class="sc-eCImPb bqPGal"
+      >
+        Error Type 1
+      </p>
+      <p>
+        Count: 
+        0
+      </p>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+    >
+      <p
+        class="sc-eCImPb bqPGal"
+      >
+        Error Type 2
+      </p>
+      <p>
+        Count: 
+        0
+      </p>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+    >
+      <p
+        class="sc-eCImPb bqPGal"
+      >
+        Error Type 3
+      </p>
+      <p>
+        Count: 
+        0
+      </p>
+    </div>
+  </div>
+</div>
+`;
