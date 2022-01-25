@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-export const Title = styled.h1({
-  fontSize: 30,
-  fontWeight: 500,
+export const ButtonClear = styled.a({
+  cursor: "pointer",
 });
 
 export const Subtitle = styled.p({
