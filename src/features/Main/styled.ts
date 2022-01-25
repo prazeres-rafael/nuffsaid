@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import { Grid } from "@mui/material";
 
-export const Container = styled(Grid)({
+export const Container = styled.div({
   maxWidth: 1440,
   width: "100%",
   margin: "auto",

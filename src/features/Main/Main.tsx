@@ -28,19 +28,21 @@ export default function Main(): React.ReactElement {
   };
 
   return (
-    <Container container spacing={3}>
-      <Grid item xs={12}>
-        <Title>nuffsaid.com Coding Challenge</Title>
-        <hr />
+    <Container>
+      <Grid container spacing={3}>
+        <Grid item xs={12}>
+          <Title>nuffsaid.com Coding Challenge</Title>
+          <hr />
+        </Grid>
+        <Grid item xs={12} sx={{ display: "flex", justifyContent: "center" }}>
+          <ButtonContainer
+            getMessages={getMessages}
+            handleStop={handleStop}
+            handleClear={handleClear}
+          />
+        </Grid>
+        <MessageColumn messages={messages} />
       </Grid>
-      <Grid item xs={12} sx={{ display: "flex", justifyContent: "center" }}>
-        <ButtonContainer
-          getMessages={getMessages}
-          handleStop={handleStop}
-          handleClear={handleClear}
-        />
-      </Grid>
-      <MessageColumn messages={messages} />
     </Container>
   );
 }

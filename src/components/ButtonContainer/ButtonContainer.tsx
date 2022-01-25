@@ -1,5 +1,5 @@
-import { Button } from "@mui/material";
 import React from "react";
+import { Button } from "./styled";
 
 type Props = {
   getMessages: boolean;
@@ -14,12 +14,8 @@ export default function ButtonContainer({
 }: Props): React.ReactElement {
   return (
     <>
-      <Button onClick={handleStop} variant="contained" color="success">
-        {getMessages ? "STOP" : "START"}
-      </Button>
-      <Button onClick={handleClear} color="success">
-        CLEAR
-      </Button>
+      <Button onClick={handleStop}>{getMessages ? "STOP" : "START"}</Button>
+      <Button onClick={handleClear}>CLEAR</Button>
     </>
   );
 }
