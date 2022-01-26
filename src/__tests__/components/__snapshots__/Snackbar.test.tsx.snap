@@ -2,10 +2,6 @@
 
 exports[`BoxPriority should match the snapshot 1`] = `
 <div>
-  <p>
-    Count: 
-    1
-  </p>
   <div
     class="css-f779bt-MuiStack-root"
   >
@@ -36,7 +32,7 @@ exports[`BoxPriority should match the snapshot 1`] = `
         <div
           class="MuiAlert-message css-acap47-MuiAlert-message"
         >
-          Et aut quo laboriosam at ut.
+          Et aut quo laboriosam at uttt.
         </div>
         <div
           class="MuiAlert-action css-ki1hdl-MuiAlert-action"
@@ -65,22 +61,6 @@ exports[`BoxPriority should match the snapshot 1`] = `
           </button>
         </div>
       </div>
-    </div>
-  </div>
-  <div
-    class="sc-bdvvtL cEtDrJ"
-    data-testid="box-priority"
-  >
-    Et aut quo laboriosam at ut.
-    <div
-      class="sc-dkPtRN hTkFqo"
-    >
-      <a
-        class="sc-gsDKAQ hPlvSa"
-        data-testid="clear-button"
-      >
-        Clear
-      </a>
     </div>
   </div>
 </div>
